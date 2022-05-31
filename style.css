@@ -97,20 +97,14 @@ video {
 
 
 
-.one--center img,
-.two--center--top img,
-.two--center--bottom img,
-.three--bottom img {
+.img__container {
     transition: all 0.3s ease-in-out;
 }
 
-.one--center img:hover,
-.two--center--top img:hover,
-.two--center--bottom img:hover,
-.three--bottom img:hover {
-    transform: scale(1.2) !important;
-    -webkit-transform: scale(1.2) !important;
-    -moz-transform: scale(1.2) !important;
+.img__container:hover {
+    transform: scale(1.1) !important;
+    -webkit-transform: scale(1.1) !important;
+    -moz-transform: scale(1.1) !important;
     cursor: pointer;
 }
 
