@@ -226,7 +226,7 @@ footer a:hover {
 
     .one--bottom img,
     .two--bottom img {
-        width: 3vw;
+        width: 5vw;
         height: auto;
     }
 
@@ -281,8 +281,54 @@ footer a:hover {
 }
 
 @media (max-width: 650px) {
+
+    .one--bottom img,
+    .two--bottom img {
+        width: 8vw;
+        height: auto;
+    }
+
+    /*========= SECTION 1 =========*/
+    .one--top img {
+        width: 60vw;
+        height: auto;
+    }
+
+    .one--center img {
+        width: 70vw;
+        height: auto;
+    }
+
+    /*========= SECTION 2 =========*/
     .img--description p {
-        font-size: 16px;
+        font-size: 20px !important;
+    }
+
+    .two--top img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .two--center--top img,
+    .two--center--bottom img {
+        width: 25vw;
+        height: auto;
+    }
+
+    /*========= SECTION 3 =========*/
+    .three--top img {
+        width: 30vw;
+        height: auto;
+    }
+
+    .three--center img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .three--bottom img {
+        width: 70vw;
+        height: auto;
     }
 }
 
