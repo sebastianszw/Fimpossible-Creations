@@ -71,15 +71,15 @@ video {
 }
 
 .one {
-    background-image: url(BG1.jpg) !important;
+    background-image: url(./images/BG1.jpg) !important;
 }
 
 .two {
-    background-image: url(BG2.jpg) !important;
+    background-image: url(./images/BG2.jpg) !important;
 }
 
 .three {
-    background-image: url(BG3.jpg) !important;
+    background-image: url(./images/BG3.jpg) !important;
 }
 
 .one__content,
@@ -117,6 +117,12 @@ video {
 
 .one--center img {
     width: 20vw;
+    height: auto;
+    transition: .2s all;
+}
+
+.one--center img:hover {
+    width: 22vw;
     height: auto;
 }
 
@@ -175,6 +181,12 @@ video {
 
 .three--bottom img {
     width: 20vw;
+    height: auto;
+    transition: .2s all;
+}
+
+.three--bottom img:hover {
+    width: 22vw;
     height: auto;
 }
 
